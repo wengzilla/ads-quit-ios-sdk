@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E206C05926D899280041BA9E /* AdQuitSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C05726D899280041BA9E /* AdQuitSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E206C06626D899770041BA9E /* AdQuitSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C05F26D899770041BA9E /* AdQuitSDK.h */; };
+		E206C06726D899770041BA9E /* AdQuitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C06026D899770041BA9E /* AdQuitManager.h */; };
+		E206C06826D899770041BA9E /* AdQuit.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C06126D899770041BA9E /* AdQuit.h */; };
+		E206C06926D899770041BA9E /* AdQuitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E206C06226D899770041BA9E /* AdQuitUtil.m */; };
+		E206C06A26D899770041BA9E /* AdQuit.m in Sources */ = {isa = PBXBuildFile; fileRef = E206C06326D899770041BA9E /* AdQuit.m */; };
+		E206C06B26D899770041BA9E /* AdQuitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E206C06426D899770041BA9E /* AdQuitManager.m */; };
+		E206C06C26D899770041BA9E /* AdQuitUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C06526D899770041BA9E /* AdQuitUtil.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E206C05426D899280041BA9E /* AdQuitSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdQuitSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E206C05726D899280041BA9E /* AdQuitSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdQuitSDK.h; sourceTree = "<group>"; };
+		E206C05826D899280041BA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E206C05F26D899770041BA9E /* AdQuitSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdQuitSDK.h; path = "../../../ads-quit-ios-sdk-2/AdQuitSDK/0.0.10/AdQuitSDK/AdQuitSDK.h"; sourceTree = "<group>"; };
+		E206C06026D899770041BA9E /* AdQuitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdQuitManager.h; sourceTree = "<group>"; };
+		E206C06126D899770041BA9E /* AdQuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdQuit.h; sourceTree = "<group>"; };
+		E206C06226D899770041BA9E /* AdQuitUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdQuitUtil.m; sourceTree = "<group>"; };
+		E206C06326D899770041BA9E /* AdQuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdQuit.m; sourceTree = "<group>"; };
+		E206C06426D899770041BA9E /* AdQuitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdQuitManager.m; sourceTree = "<group>"; };
+		E206C06526D899770041BA9E /* AdQuitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdQuitUtil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E206C05126D899280041BA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E206C04A26D899280041BA9E = {
+			isa = PBXGroup;
+			children = (
+				E206C05626D899280041BA9E /* AdQuitSDK */,
+				E206C05526D899280041BA9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E206C05526D899280041BA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E206C05426D899280041BA9E /* AdQuitSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E206C05626D899280041BA9E /* AdQuitSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E206C06126D899770041BA9E /* AdQuit.h */,
+				E206C06326D899770041BA9E /* AdQuit.m */,
+				E206C06026D899770041BA9E /* AdQuitManager.h */,
+				E206C06426D899770041BA9E /* AdQuitManager.m */,
+				E206C05726D899280041BA9E /* AdQuitSDK.h */,
+				E206C05F26D899770041BA9E /* AdQuitSDK.h */,
+				E206C06526D899770041BA9E /* AdQuitUtil.h */,
+				E206C06226D899770041BA9E /* AdQuitUtil.m */,
+				E206C05826D899280041BA9E /* Info.plist */,
+			);
+			path = AdQuitSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E206C04F26D899280041BA9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E206C05926D899280041BA9E /* AdQuitSDK.h in Headers */,
+				E206C06626D899770041BA9E /* AdQuitSDK.h in Headers */,
+				E206C06826D899770041BA9E /* AdQuit.h in Headers */,
+				E206C06726D899770041BA9E /* AdQuitManager.h in Headers */,
+				E206C06C26D899770041BA9E /* AdQuitUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E206C05326D899280041BA9E /* AdQuitSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E206C05C26D899280041BA9E /* Build configuration list for PBXNativeTarget "AdQuitSDK" */;
+			buildPhases = (
+				E206C04F26D899280041BA9E /* Headers */,
+				E206C05026D899280041BA9E /* Sources */,
+				E206C05126D899280041BA9E /* Frameworks */,
+				E206C05226D899280041BA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdQuitSDK;
+			productName = AdQuitSDK;
+			productReference = E206C05426D899280041BA9E /* AdQuitSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E206C04B26D899280041BA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E206C05326D899280041BA9E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E206C04E26D899280041BA9E /* Build configuration list for PBXProject "AdQuitSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E206C04A26D899280041BA9E;
+			productRefGroup = E206C05526D899280041BA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E206C05326D899280041BA9E /* AdQuitSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E206C05226D899280041BA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E206C05026D899280041BA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E206C06926D899770041BA9E /* AdQuitUtil.m in Sources */,
+				E206C06A26D899770041BA9E /* AdQuit.m in Sources */,
+				E206C06B26D899770041BA9E /* AdQuitManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E206C05A26D899280041BA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E206C05B26D899280041BA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E206C05D26D899280041BA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8TM78CPY33;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AdQuitSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edweng.AdQuitSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E206C05E26D899280041BA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8TM78CPY33;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AdQuitSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edweng.AdQuitSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E206C04E26D899280041BA9E /* Build configuration list for PBXProject "AdQuitSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206C05A26D899280041BA9E /* Debug */,
+				E206C05B26D899280041BA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E206C05C26D899280041BA9E /* Build configuration list for PBXNativeTarget "AdQuitSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206C05D26D899280041BA9E /* Debug */,
+				E206C05E26D899280041BA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E206C04B26D899280041BA9E /* Project object */;
+}
