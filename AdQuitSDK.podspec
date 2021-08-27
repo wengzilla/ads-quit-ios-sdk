@@ -155,8 +155,8 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "IronSourceSDK", '~>7.1.6.0'
-  spec.dependency 'AFNetworking', '~> 4.0'
+  spec.dependency "IronSourceSDK", '~>7.1'
+  spec.dependency 'SGHTTPRequest'
 spec.static_framework = true
 
 end

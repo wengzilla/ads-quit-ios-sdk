@@ -8,16 +8,18 @@
 #import "AdQuitManager.h"
 #import "AdQuitUtil.h"
 #import <IronSource/IronSource.h>
-#import <AFNetworking/AFNetworking.h>
+#import <SGHTTPRequest/SGHTTPRequest.h>
 #import <sys/utsname.h>
 #import <AdSupport/ASIdentifierManager.h>
 
 @implementation AdQuitUtil
 
 + (void)ping:(NSString*)event_name withData:(NSDictionary*)data {
-    NSString *url = @"https://ads-quit.herokuapp.com/logEvent";
-    NSDictionary *parameters;
-    
+    NSURL *url = [NSURL URLWithString:@"https://ads-quit.herokuapp.com/logEvent"];
+
+    // create a POST request
+    SGHTTPRequest *req = [SGHTTPRequest postRequestWithURL:url];
+
     // set the POST fields
     NSDictionary *dictionary = @{
                      @"event_name": event_name,
@@ -48,14 +50,13 @@
             NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
             mutableDictionary[@"data"] = jsonString;
         }
-        parameters = mutableDictionary;
+        req.parameters = mutableDictionary;
     } else {
-        parameters = dictionary;
+        req.parameters = dictionary;
     }
 
-    // start the POST request
-    [[AFJSONRequestSerializer serializer] requestWithMethod:@"POST" URLString:url parameters:parameters error:nil];
-
+    // start the request in the background
+    [req start];
 }
 
 + (NSString*)getDeviceModel {
