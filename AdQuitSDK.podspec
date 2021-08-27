@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdQuitSDK"
-  spec.version      = "0.0.11"
+  spec.version      = "0.0.12"
   spec.summary      = "AdQuitSDK is an analytics framework that helps you track users who quit your app after viewing an ad."
 
   # This description is used to generate tags and improve search results.
