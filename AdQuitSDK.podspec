@@ -75,7 +75,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "tylerlacroix" => "tlacroi2@uwo.ca" }
+  spec.author             = { "edweng" => "edweng@gmail.com" }
   # Or just: spec.author    = "tylerlacroix"
   # spec.authors            = { "tylerlacroix" => "tlacroi2@uwo.ca" }
   # spec.social_media_url   = "https://twitter.com/tylerlacroix"
@@ -102,7 +102,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/tylerlacroix/ads-quit-ios-sdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wengzilla/ads-quit-ios-sdk.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
