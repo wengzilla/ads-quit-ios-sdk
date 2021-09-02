@@ -74,6 +74,11 @@ NSString* const interstitialAdFormat = @"interstitial";
     [AdQuitUtil pingAppQuit];
 }
 
+- (void)applicationWillEnterForeground:(UIApplication *) application {
+    NSLog(@"applicationWillEnterForeground");
+    [AdQuitUtil pingAppOpen];
+}
+
 - (void)dealloc {
   // Should never be called, but just here for clarity really.
 }
