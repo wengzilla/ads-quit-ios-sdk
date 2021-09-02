@@ -1,0 +1,6 @@
+framework module Pods_AdQuitSDK {
+  umbrella header "Pods-AdQuitSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

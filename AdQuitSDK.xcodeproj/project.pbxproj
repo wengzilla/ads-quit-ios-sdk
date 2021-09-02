@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A86A9A6E33EAD2256FEEBFA4 /* Pods_AdQuitSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C08933288E971954A406EF /* Pods_AdQuitSDK.framework */; };
 		E206C05926D899280041BA9E /* AdQuitSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C05726D899280041BA9E /* AdQuitSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E206C06626D899770041BA9E /* AdQuitSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C05F26D899770041BA9E /* AdQuitSDK.h */; };
 		E206C06726D899770041BA9E /* AdQuitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E206C06026D899770041BA9E /* AdQuitManager.h */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6C08933288E971954A406EF /* Pods_AdQuitSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdQuitSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C801984B6F5CCD445C3CE67C /* Pods-AdQuitSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdQuitSDK.debug.xcconfig"; path = "Target Support Files/Pods-AdQuitSDK/Pods-AdQuitSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		E206C05426D899280041BA9E /* AdQuitSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdQuitSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E206C05726D899280041BA9E /* AdQuitSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdQuitSDK.h; sourceTree = "<group>"; };
 		E206C05826D899280041BA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		E206C06326D899770041BA9E /* AdQuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdQuit.m; sourceTree = "<group>"; };
 		E206C06426D899770041BA9E /* AdQuitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdQuitManager.m; sourceTree = "<group>"; };
 		E206C06526D899770041BA9E /* AdQuitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdQuitUtil.h; sourceTree = "<group>"; };
+		F7F4069680B6907E21831A41 /* Pods-AdQuitSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdQuitSDK.release.xcconfig"; path = "Target Support Files/Pods-AdQuitSDK/Pods-AdQuitSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86A9A6E33EAD2256FEEBFA4 /* Pods_AdQuitSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1609E82845E3FB579037B070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6C08933288E971954A406EF /* Pods_AdQuitSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DCB1A655C87AFBD0937AD90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C801984B6F5CCD445C3CE67C /* Pods-AdQuitSDK.debug.xcconfig */,
+				F7F4069680B6907E21831A41 /* Pods-AdQuitSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E206C04A26D899280041BA9E = {
 			isa = PBXGroup;
 			children = (
 				E206C05626D899280041BA9E /* AdQuitSDK */,
 				E206C05526D899280041BA9E /* Products */,
+				9DCB1A655C87AFBD0937AD90 /* Pods */,
+				1609E82845E3FB579037B070 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E206C05C26D899280041BA9E /* Build configuration list for PBXNativeTarget "AdQuitSDK" */;
 			buildPhases = (
+				353DF98A078242B0AC4E4A1B /* [CP] Check Pods Manifest.lock */,
 				E206C04F26D899280041BA9E /* Headers */,
 				E206C05026D899280041BA9E /* Sources */,
 				E206C05126D899280041BA9E /* Frameworks */,
@@ -149,6 +174,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353DF98A078242B0AC4E4A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdQuitSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E206C05026D899280041BA9E /* Sources */ = {
@@ -284,6 +334,7 @@
 		};
 		E206C05D26D899280041BA9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C801984B6F5CCD445C3CE67C /* Pods-AdQuitSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -307,6 +358,7 @@
 		};
 		E206C05E26D899280041BA9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F4069680B6907E21831A41 /* Pods-AdQuitSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
